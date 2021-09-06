@@ -1,0 +1,40 @@
+Collecting batchgenerators
+  Downloading batchgenerators-0.23.tar.gz (57 kB)
+Requirement already satisfied: pillow>=7.1.2 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from batchgenerators) (8.0.1)
+Requirement already satisfied: numpy>=1.10.2 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from batchgenerators) (1.19.2)
+Requirement already satisfied: scipy in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from batchgenerators) (1.4.1)
+Requirement already satisfied: scikit-image in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from batchgenerators) (0.17.2)
+Collecting scikit-learn
+  Downloading scikit_learn-0.24.2-cp37-cp37m-manylinux2010_x86_64.whl (22.3 MB)
+Requirement already satisfied: future in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from batchgenerators) (0.18.2)
+Collecting unittest2
+  Using cached unittest2-1.1.0-py2.py3-none-any.whl (96 kB)
+Collecting threadpoolctl
+  Downloading threadpoolctl-2.2.0-py3-none-any.whl (12 kB)
+Requirement already satisfied: networkx>=2.0 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from scikit-image->batchgenerators) (2.5)
+Requirement already satisfied: matplotlib!=3.0.0,>=2.0.0 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from scikit-image->batchgenerators) (3.3.3)
+Requirement already satisfied: tifffile>=2019.7.26 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from scikit-image->batchgenerators) (2020.10.1)
+Requirement already satisfied: PyWavelets>=1.1.1 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from scikit-image->batchgenerators) (1.1.1)
+Requirement already satisfied: imageio>=2.3.0 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from scikit-image->batchgenerators) (2.9.0)
+Collecting joblib>=0.11
+  Downloading joblib-1.0.1-py3-none-any.whl (303 kB)
+Requirement already satisfied: six>=1.4 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from unittest2->batchgenerators) (1.15.0)
+Collecting traceback2
+  Using cached traceback2-1.4.0-py2.py3-none-any.whl (16 kB)
+Collecting argparse
+  Using cached argparse-1.4.0-py2.py3-none-any.whl (23 kB)
+Requirement already satisfied: decorator>=4.3.0 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from networkx>=2.0->scikit-image->batchgenerators) (4.4.2)
+Requirement already satisfied: python-dateutil>=2.1 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image->batchgenerators) (2.8.1)
+Requirement already satisfied: cycler>=0.10 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image->batchgenerators) (0.10.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image->batchgenerators) (1.3.1)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 in /home/wyn/.conda/envs/wyn/lib/python3.7/site-packages (from matplotlib!=3.0.0,>=2.0.0->scikit-image->batchgenerators) (2.4.7)
+Collecting linecache2
+  Using cached linecache2-1.0.0-py2.py3-none-any.whl (12 kB)
+Building wheels for collected packages: batchgenerators
+  Building wheel for batchgenerators (setup.py): started
+  Building wheel for batchgenerators (setup.py): finished with status 'done'
+  Created wheel for batchgenerators: filename=batchgenerators-0.23-py3-none-any.whl size=84785 sha256=390d8e0eca190c121c8107c0c9946d78336ab2246ff5f46c103785b6f86e0a62
+  Stored in directory: /home/wyn/.cache/pip/wheels/81/3d/a2/9a602ce56458c684d2962ec89eddd6bc06b00687735e2dd11a
+Successfully built batchgenerators
+Installing collected packages: threadpoolctl, joblib, scikit-learn, linecache2, traceback2, argparse, unittest2, batchgenerators
+Successfully installed argparse-1.4.0 batchgenerators-0.23 joblib-1.0.1 linecache2-1.0.0 scikit-learn-0.24.2 threadpoolctl-2.2.0 traceback2-1.4.0 unittest2-1.1.0
